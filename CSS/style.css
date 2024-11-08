@@ -1076,7 +1076,7 @@ section {
     align-items: center;
     justify-content: center;
     display: flex;
-    margin-bottom: 550px;
+    margin-bottom: 650px;
     animation: bounce 6s infinite ease;
   }
 }
