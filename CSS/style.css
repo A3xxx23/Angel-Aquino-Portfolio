@@ -678,12 +678,12 @@ section {
   }
 
   .Services h1{
-    font-size: 5rem;
+    font-size: 4.5rem;
     font-weight: 800;
     align-items: center;
     justify-content: center;
     display: flex;
-    margin-bottom: 350px;
+    margin-bottom: 460px;
     animation: bounce 6s infinite ease;
   }
 }
@@ -1076,7 +1076,7 @@ section {
     align-items: center;
     justify-content: center;
     display: flex;
-    margin-bottom: 450px;
+    margin-bottom: 550px;
     animation: bounce 6s infinite ease;
   }
 }
