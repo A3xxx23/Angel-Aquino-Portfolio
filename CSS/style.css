@@ -261,16 +261,15 @@ section {
 	place-items: center;
 }
 
-.Services h1 {
-  font-size: 6rem; 
+.Services h1{
+  font-size: 6rem;
   font-weight: 800;
   align-items: center;
   justify-content: center;
   display: flex;
-  margin-bottom: 60px
+  margin-bottom: 43px;
   animation: bounce 6s infinite ease;
 }
-
 
 .overlay .content p{
   font-weight: 500;
@@ -420,7 +419,7 @@ section {
   align-items: center;
   justify-content: center;
   display: flex;
-  margin-bottom: 50px;
+  margin-bottom: 40px;
   color: var(--second-color);
   text-shadow: 0 0 7px var(--second-color);
   animation: bounce 6s infinite ease;
@@ -676,6 +675,16 @@ section {
   .timeline-section h1 {
       font-size: 4.5rem;
       margin-bottom: 30px;
+  }
+
+  .Services h1{
+    font-size: 5rem;
+    font-weight: 800;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-bottom: 30px;
+    animation: bounce 6s infinite ease;
   }
 }
 
@@ -991,8 +1000,14 @@ section {
       margin-top: 1.5rem;
   }
 
+  .home-content h3 {
+      font-size: 2rem;
+      display: flex;
+      align-items: center;
+  }
+
   .timeline-section h1 {
-      font-size: 4rem;
+      font-size: 3.5rem;
       font-weight: 800;
       align-items: center;
       justify-content: center;
@@ -1003,6 +1018,16 @@ section {
   .timeline-section h1 span {
       font-size: 3.5rem;
       margin-right: 20px;
+  }
+
+  .Services h1{
+    font-size: 4.3rem;
+    font-weight: 800;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-bottom: 40px;
+    animation: bounce 6s infinite ease;
   }
 }
 
@@ -1029,6 +1054,7 @@ section {
       margin-bottom: 0;
       text-align: center;
   }
+
 }
 
 /* Responsive tablets (481px a 1024px) */
@@ -1042,6 +1068,16 @@ section {
 
   .footer ul {
       font-size: 1.5rem;
+  }
+
+  .Services h1{
+    font-size: 5.5rem;
+    font-weight: 800;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-bottom: 42px;
+    animation: bounce 6s infinite ease;
   }
 }
 
