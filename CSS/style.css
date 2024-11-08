@@ -267,7 +267,7 @@ section {
   align-items: center;
   justify-content: center;
   display: flex;
-  margin-bottom: 47rem;
+  margin-bottom: 30rem;
   animation: bounce 6s infinite ease;
 }
 
@@ -505,7 +505,7 @@ section {
   }
 
   .Services h1{
-  margin-bottom: 63rem;
+  margin-bottom: 40rem;
 }
 }
 
@@ -524,7 +524,7 @@ section {
   }
 
   .Services h1{
-  margin-bottom: 60rem;
+  margin-bottom: 40rem;
 }
 }
 
@@ -543,7 +543,7 @@ section {
   } 
 
   .Services h1{
-  margin-bottom: 47rem;
+  margin-bottom: 42rem;
 }
 }
 
@@ -694,7 +694,7 @@ section {
   }
 
   .Services h1{
-  margin-bottom: 60rem;
+  margin-bottom: 45rem;
 }
 }
 
@@ -748,7 +748,7 @@ section {
   }
 
   .Services h1{
-  margin-bottom: 60rem;
+  margin-bottom: 42rem;
 }
 }
 
@@ -1065,7 +1065,7 @@ section {
   }
 
   .Services h1{
-    margin-bottom: 53rem;
+    margin-bottom: 45rem;
   }
 }
 
@@ -1082,7 +1082,7 @@ section {
       font-size: 1.5rem;
   }
  .Services h1{
-  margin-bottom: 54rem;
+  margin-bottom: 42rem;
 }
 }
 
