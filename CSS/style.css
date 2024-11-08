@@ -261,15 +261,16 @@ section {
 	place-items: center;
 }
 
-.Services h1{
-  font-size: 6rem;
+.Services h1 {
+  font-size: 8vw; 
   font-weight: 800;
   align-items: center;
   justify-content: center;
   display: flex;
-  margin-bottom: 44rem;
+  margin-bottom: 10vh; 
   animation: bounce 6s infinite ease;
 }
+
 
 .overlay .content p{
   font-weight: 500;
@@ -1028,11 +1029,6 @@ section {
       margin-bottom: 0;
       text-align: center;
   }
-
-  .Services h1 {
-    font-size: 5rem; 
-    margin-bottom: 54rem; 
-  }
 }
 
 /* Responsive tablets (481px a 1024px) */
@@ -1100,20 +1096,6 @@ section {
 
   .nav-bg.active {
       display: block;
-  }
-}
-
-@media screen and (max-width: 600px) {
-  .Services h1 {
-    font-size: 4rem; 
-    margin-bottom: 46rem; 
-  }
-}
-
-@media screen and (min-width: 601px) and (max-width: 1024px) {
-  .Services h1 {
-    font-size: 5rem; 
-    margin-bottom: 46rem; 
   }
 }
 
