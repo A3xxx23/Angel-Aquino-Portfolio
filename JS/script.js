@@ -145,7 +145,7 @@ var container = document.getElementById('container')
             event.preventDefault();
 
             const link = document.createElement('a');
-        link.href = 'https://github.com/A3xxx23/Angel-Aquino-Portfolio/blob/main/Angel%20Aquino%20CV.pdf'; 
+        link.href = 'https://github.com/A3xxx23/Angel-Aquino-Portfolio/raw/main/Angel%20Aquino%20CV.pdf'; 
         link.download = 'Angel_Aquino_CV.pdf'; 
         document.body.appendChild(link);
         link.click(); 
