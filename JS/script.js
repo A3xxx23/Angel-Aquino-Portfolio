@@ -11,7 +11,7 @@ menuIcon.addEventListener('click', () => {
 
 // changer letters
 var typed = new Typed('.text-animation', {
-  strings: ['Frontend Dev', ' Web Designer ', ' UX/UI Designer '],
+  strings: ['Frontend Dev', ' Web Designer ', ' UX Designer ', ' UI Designer '],
   typeSpeed: 80,
   backSpeed: 100,
   backDelay: 1200,
