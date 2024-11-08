@@ -503,6 +503,10 @@ section {
   .Skills .skills-container .bar .info img {
     width: 50px;
   }
+
+  .Services h1{
+  margin-bottom: 55rem;
+}
 }
 
 @media screen and (min-width: 601px) and (max-width: 1024px) {
@@ -518,6 +522,10 @@ section {
   .Skills .skills-container .bar .info img {
     width: 80px; 
   }
+
+  .Services h1{
+  margin-bottom: 50rem;
+}
 }
 
 @media screen and (min-width: 1025px) and (max-width: 1200px) {
@@ -533,6 +541,10 @@ section {
   .Skills .skills-container .bar .info img {
     width: 100px; 
   } 
+
+  .Services h1{
+  margin-bottom: 45rem;
+}
 }
 
  /* Education section*/
@@ -669,6 +681,10 @@ section {
       width: 35px;
       margin: 0;
   }
+	
+  .Services h1{
+  margin-bottom: 55rem;
+}
 }
 
 @media (max-width: 432px) {
@@ -726,6 +742,10 @@ section {
   .btn-download {
       margin-top: 1.8rem;
   }
+
+  .Services h1{
+  margin-bottom: 55rem;
+}
 }
 
 /* Contact section*/
@@ -1057,6 +1077,9 @@ section {
   .footer ul {
       font-size: 1.5rem;
   }
+ .Services h1{
+  margin-bottom: 49rem;
+}
 }
 
 /* Responsive (1025px a 1280px) */
