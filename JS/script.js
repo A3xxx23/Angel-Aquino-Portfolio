@@ -145,11 +145,11 @@ var container = document.getElementById('container')
             event.preventDefault();
 
             const link = document.createElement('a');
-        link.href = 'https://github.com/A3xxx23/Portfolio-Angel-Aquino/raw/main/Angel%20Aquino%20CV.pdf'; // Usa 'raw' para descargar
-        link.download = 'Angel_Aquino_CV.pdf'; // Nombre del archivo a descargar
+        link.href = 'https://github.com/A3xxx23/Angel-Aquino-Portfolio/blob/main/Angel%20Aquino%20CV.pdf'; 
+        link.download = 'Angel_Aquino_CV.pdf'; 
         document.body.appendChild(link);
-        link.click(); // Simula el clic en el enlace
-        document.body.removeChild(link); // Elimina el enlace temporal
+        link.click(); 
+        document.body.removeChild(link); 
 
             const modal = new bootstrap.Modal(document.getElementById('downloadModal'));
             modal.show();
