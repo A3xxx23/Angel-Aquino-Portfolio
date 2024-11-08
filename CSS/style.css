@@ -269,7 +269,6 @@ section {
   display: flex;
   margin-bottom: 47rem;
   animation: bounce 6s infinite ease;
-  z-index: 100;
 }
 
 .overlay .content p{
