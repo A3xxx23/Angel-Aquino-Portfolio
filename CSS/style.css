@@ -267,7 +267,7 @@ section {
   align-items: center;
   justify-content: center;
   display: flex;
-  margin-bottom: 10vh; 
+  margin-bottom: 25vh; 
   animation: bounce 6s infinite ease;
 }
 
