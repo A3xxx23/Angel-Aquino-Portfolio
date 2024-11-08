@@ -267,7 +267,7 @@ section {
   align-items: center;
   justify-content: center;
   display: flex;
-  margin-bottom: 42rem;
+  margin-bottom: 40rem;
   animation: bounce 6s infinite ease;
 }
 
@@ -503,10 +503,6 @@ section {
   .Skills .skills-container .bar .info img {
     width: 50px;
   }
-
-  .Services h1{
-  margin-bottom: 50rem;
-}
 }
 
 @media screen and (min-width: 601px) and (max-width: 1024px) {
@@ -522,10 +518,6 @@ section {
   .Skills .skills-container .bar .info img {
     width: 80px; 
   }
-
-  .Services h1{
-  margin-bottom: 53rem;
-}
 }
 
 @media screen and (min-width: 1025px) and (max-width: 1200px) {
@@ -541,10 +533,6 @@ section {
   .Skills .skills-container .bar .info img {
     width: 100px; 
   } 
-
-  .Services h1{
-  margin-bottom: 50rem;
-}
 }
 
  /* Education section*/
@@ -681,10 +669,6 @@ section {
       width: 35px;
       margin: 0;
   }
-	
-  .Services h1{
-  margin-bottom: 60rem;
-}
 }
 
 @media (max-width: 432px) {
@@ -692,10 +676,6 @@ section {
       font-size: 4.5rem;
       margin-bottom: 30px;
   }
-
-  .Services h1{
-  margin-bottom: 64rem;
-}
 }
 
 /* responsive timeline*/
@@ -746,10 +726,6 @@ section {
   .btn-download {
       margin-top: 1.8rem;
   }
-
-  .Services h1{
-  margin-bottom: 60rem;
-}
 }
 
 /* Contact section*/
@@ -1027,11 +1003,6 @@ section {
       font-size: 3.5rem;
       margin-right: 20px;
   }
-
-  .Services h1{
-    margin-bottom: 55rem;
-  }
-
 }
 
 @media screen and (max-width: 480px) {
@@ -1057,10 +1028,6 @@ section {
       margin-bottom: 0;
       text-align: center;
   }
-
-  .Services h1{
-    margin-bottom: 60rem;
-  }
 }
 
 /* Responsive tablets (481px a 1024px) */
@@ -1075,9 +1042,6 @@ section {
   .footer ul {
       font-size: 1.5rem;
   }
- .Services h1{
-  margin-bottom: 55rem;
-}
 }
 
 /* Responsive (1025px a 1280px) */
@@ -1131,6 +1095,20 @@ section {
 
   .nav-bg.active {
       display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .Services h1 {
+    font-size: 4rem; 
+    margin-bottom: 42rem; 
+  }
+}
+
+@media screen and (min-width: 601px) and (max-width: 1024px) {
+  .Services h1 {
+    font-size: 5rem; 
+    margin-bottom: 42rem; 
   }
 }
 
