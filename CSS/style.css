@@ -262,12 +262,12 @@ section {
 }
 
 .Services h1 {
-  font-size: 8vw; 
+  font-size: 6rem; 
   font-weight: 800;
   align-items: center;
   justify-content: center;
   display: flex;
-  margin-bottom: 25vh; 
+  margin-bottom: 60px
   animation: bounce 6s infinite ease;
 }
 
