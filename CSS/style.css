@@ -520,6 +520,18 @@ section {
   }
 }
 
+@media screen and (min-width: 1025px) {
+  .Services h1 {
+    font-size: 6rem;
+    font-weight: 800;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-bottom: 800px;
+    animation: bounce 6s infinite ease;
+  }
+}
+
 @media screen and (min-width: 1025px) and (max-width: 1200px) {
   .Skills .skills-container {
     padding: 1rem;
