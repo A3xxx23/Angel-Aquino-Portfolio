@@ -698,6 +698,13 @@ section {
       width: 35px;
       margin: 0;
   }
+
+  .home-content h3 span {
+      font-size: 2rem;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+  }
 }
 
 @media (max-width: 432px) {
