@@ -136,11 +136,11 @@ var container = document.getElementById('container')
         };
 
         $(document).ready(function () {
-            $(".buttom-btn").click(function () {
-                alert("Contact Me: angelemilioaquino6@gmail.com");
-            });
-        });
-
+    $(".buttom-btn").click(function () {
+        alert("Contact Me: angelemilioaquino6@gmail.com");
+        window.location.href = "mailto:angelemilioaquino6@gmail.com";
+    });
+});
         document.querySelector('.btn-download').addEventListener('click', function (event) {
             event.preventDefault();
 
