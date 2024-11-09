@@ -527,8 +527,7 @@ section {
     align-items: center;
     justify-content: center;
     display: flex;
-    margin-bottom: 650px;
-    padding-bottom: 200px;
+    margin-bottom: 430px;
     animation: bounce 6s infinite ease;
   }
 }
@@ -1089,7 +1088,8 @@ section {
     align-items: center;
     justify-content: center;
     display: flex;
-    margin-bottom: 650px;
+    margin-bottom: 400px;
+    padding-bottom:40px;
     animation: bounce 6s infinite ease;
   }
 }
@@ -1105,6 +1105,16 @@ section {
 
   .footer ul {
       font-size: 1.8rem;
+  }
+
+.Services h1{
+    font-size: 5.5rem;
+    font-weight: 800;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-bottom: 430px;
+    animation: bounce 6s infinite ease;
   }
 }
 
