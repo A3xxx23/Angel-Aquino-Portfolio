@@ -527,7 +527,7 @@ section {
     align-items: center;
     justify-content: center;
     display: flex;
-    margin-bottom: 300px;
+    margin-bottom: 450px;
     animation: bounce 6s infinite ease;
   }
 }
