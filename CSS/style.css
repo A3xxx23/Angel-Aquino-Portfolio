@@ -273,7 +273,7 @@ section {
 
 @media screen and (max-width: 1200px) {
   .Services h1 {
-    font-size: 6rem; /* Tamaño para pantallas grandes a medianas */
+    font-size: 6rem; 
     margin-bottom: 350px; 
   }
 }
@@ -287,15 +287,15 @@ section {
 
 @media screen and (max-width: 768px) {
   .Services h1 {
-    font-size: 4.5rem; 
-    margin-bottom: 400px; 
+    font-size: 6rem; 
+    margin-bottom: 500px; 
   }
 }
 
 @media screen and (max-width: 576px) {
   .Services h1 {
-    font-size: 4rem; 
-    margin-bottom: 400px; 
+    font-size: 5.5rem; 
+    margin-bottom: 500px; 
   }
 }
 
