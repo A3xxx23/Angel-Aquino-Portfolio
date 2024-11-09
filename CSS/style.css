@@ -267,8 +267,20 @@ section {
   align-items: center;
   justify-content: center;
   display: flex;
-  margin-bottom: 400px;
+  margin-bottom: 100px;
   animation: bounce 6s infinite ease;
+}
+
+@media screen and (max-width: 600px) {
+  .Services h1 {
+    font-size: 5.5rem; 
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .Services h1 {
+    font-size: 5rem; 
+  }
 }
 
 .overlay .content p{
@@ -520,17 +532,6 @@ section {
   }
 }
 
-@media screen and (min-width: 1025px) {
-  .Services h1 {
-    font-size: 6rem;
-    font-weight: 800;
-    align-items: center;
-    justify-content: center;
-    display: flex;
-    margin-bottom: 430px;
-    animation: bounce 6s infinite ease;
-  }
-}
 
 @media screen and (min-width: 1025px) and (max-width: 1200px) {
   .Skills .skills-container {
@@ -687,16 +688,6 @@ section {
   .timeline-section h1 {
       font-size: 4.5rem;
       margin-bottom: 30px;
-  }
-
-  .Services h1{
-    font-size: 4.5rem;
-    font-weight: 800;
-    align-items: center;
-    justify-content: center;
-    display: flex;
-    margin-bottom: 460px;
-    animation: bounce 6s infinite ease;
   }
 }
 
@@ -1031,16 +1022,6 @@ section {
       font-size: 3.5rem;
       margin-right: 20px;
   }
-
-  .Services h1{
-    font-size: 4.3rem;
-    font-weight: 800;
-    align-items: center;
-    justify-content: center;
-    display: flex;
-    margin-bottom: 500px;
-    animation: bounce 6s infinite ease;
-  }
 }
 
 @media screen and (max-width: 480px) {
@@ -1081,17 +1062,6 @@ section {
   .footer ul {
       font-size: 1.5rem;
   }
-
-  .Services h1{
-    font-size: 5.5rem;
-    font-weight: 800;
-    align-items: center;
-    justify-content: center;
-    display: flex;
-    margin-bottom: 400px;
-    padding-bottom:40px;
-    animation: bounce 6s infinite ease;
-  }
 }
 
 /* Responsive (1025px a 1280px) */
@@ -1105,16 +1075,6 @@ section {
 
   .footer ul {
       font-size: 1.8rem;
-  }
-
-.Services h1{
-    font-size: 5.5rem;
-    font-weight: 800;
-    align-items: center;
-    justify-content: center;
-    display: flex;
-    margin-bottom: 430px;
-    animation: bounce 6s infinite ease;
   }
 }
 
@@ -1374,6 +1334,7 @@ body.dark-mode .timeline-items::before {
       transform: translateY(-15px);
   }
 }
+ 
 
 
  
