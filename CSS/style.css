@@ -267,19 +267,35 @@ section {
   align-items: center;
   justify-content: center;
   display: flex;
-  margin-bottom: 275px;
+  margin-bottom: 400px;
   animation: bounce 6s infinite ease;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1200px) {
   .Services h1 {
-    font-size: 5.5rem; 
+    font-size: 6rem; /* Tamaño para pantallas grandes a medianas */
+    margin-bottom: 350px; 
   }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 992px) {
   .Services h1 {
-    font-size: 5rem; 
+    font-size: 6rem; 
+    margin-bottom: 450px; 
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .Services h1 {
+    font-size: 4.5rem; 
+    margin-bottom: 400px; 
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .Services h1 {
+    font-size: 4rem; 
+    margin-bottom: 400px; 
   }
 }
 
